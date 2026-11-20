@@ -1,0 +1,9 @@
+node_modules/
+frontend/dist/
+.env
+.env.local
+*.log
+backend/database/*.sqlite
+backend/database/*.sqlite-shm
+backend/database/*.sqlite-wal
+coverage/

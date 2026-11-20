@@ -1,0 +1,13 @@
+{
+  "name": "@resqroute/backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch --env-file-if-exists=.env server.js",
+    "start": "node --env-file-if-exists=.env server.js",
+    "check": "node ../scripts/check-backend.mjs",
+    "test": "node --test"
+  },
+  "dependencies": { "cors": "^2.8.5", "express": "^5.1.0" }
+}
